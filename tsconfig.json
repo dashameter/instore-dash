@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
     "target": "es2018",
     "module": "esnext",
+    // "module": "commonjs",
     "moduleResolution": "node",
     "lib": [
       "esnext",
@@ -25,7 +27,8 @@
     },
     "types": [
       "@types/node",
-      "@nuxt/types"
+      "@nuxt/types",
+      "@nuxtjs/axios"
     ]
   },
   "exclude": [
